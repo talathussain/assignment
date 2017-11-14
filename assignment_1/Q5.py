@@ -7,13 +7,13 @@
 #===============================================================================#
 
 
-class IOString():
+class IOString(object):
    
     def getString(self):
-        self.s = input("Enter String values = ")
+        self.s = input()
 
     def printString(self):
-        print ("Result in UpperCase = ",self.s.upper())
+        print (self.s.upper())
 
 strObj = IOString()
 strObj.getString()
