@@ -1,7 +1,7 @@
 while True:
 	try:
-		number = int(input("Enter Nubmer = "))	
-		print("Square of", number,  "is = ", number*number)
+		val = int(input("Enter Nubmer of square = "))	
+		print("Square of", val,  "is = ", val*val)
 		break
 	except:
         	print ("Please enter integer Number")
