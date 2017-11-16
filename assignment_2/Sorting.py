@@ -1,6 +1,3 @@
-try:
-	values=[x for x in raw_input("Enter Words to Sort with comma__").split(',')]
-	values.sort()
-	print "Sorted Values__",','.join(values)	
-except:
-print"Values Not looking good "
+words=[x for x in input("Enter words in a comma-separated sequence == ").split(',')]
+words.sort()
+print("Sorting Value = ",",".join(words))	
