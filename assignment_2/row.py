@@ -15,4 +15,7 @@ while True:
 	continue
 
 
+<<<<<<< HEAD:assignment_2/row.py
 
+=======
+>>>>>>> 1ebc3808030260f5e81170dfbaba75d1a3488517:assignment_2/Row.py
