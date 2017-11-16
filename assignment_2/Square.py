@@ -1,11 +1,9 @@
 while True:
-    try:
-        number = int(raw_input("Enter Nubmer to square it: "))
-	print "Square of", number,  "is:", number*number
-	break
-
-    except:
-        print "Sorry! Put an Integer Value to find your answer :)"
-	print"Try Again"
-	continue
-
+	try:
+		val = int(input("Enter Nubmer of square = "))	
+		print("Square of", val,  "is = ", val*val)
+		break
+	except:
+        	print ("Please enter integer Number")
+	
+	
