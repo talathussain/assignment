@@ -1,14 +1,8 @@
-print("Enter Range to find Even numbers between")
-while True:
- try:		
-		a = input("Enter 1st Value__")
-		b = input("Enter 2nd Value__")
-		values = []
-		for i in range(a, b):
-			if (i%2==0): 
-			    values.append(str(i))
-		print (",".join(values))
-		break
-	except:
-		print"Please Enter Exact Integers range "
-continue
+R1 = 1000
+R2 = 3000
+even_number = []
+for i in range(R1, R2+1):
+	if (i%2==0): 
+		even_number.append(str(i))
+
+print ("Even number = ",",".join(even_number))
